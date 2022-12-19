@@ -40,7 +40,7 @@ const NavMobile = () => {
     <nav className='relative'>
       {/* menu icon */}
       <div
-        onClick={() => setIsOpen(true)}
+        onClick={() => setIsOpen(!IsOpen)}
         className='cursor-pointer text-white'
       >
         <FaBars className='w-8 h-8' />
@@ -63,7 +63,7 @@ const NavMobile = () => {
       >
         {/* close icon */}
         <div
-          onClick={() => setIsOpen(false)}
+          onClick={() => setIsOpen(IsOpen)}
           className='cursor-pointer absolute top-8 right-8'
         >
           <FaTimes className='w-8 h-8' />
@@ -74,10 +74,11 @@ const NavMobile = () => {
             <Link
               to={item.href}
               spy={true}
+              onClick={() => setIsOpen(!IsOpen)}
               smooth={true}
               offset={-70}
               duration={500}
-              className='text-xl cursor-pointer capitalize'
+              className='text-xl cursor-pointer capitalize text-white'
             >
               {item.name}
             </Link>

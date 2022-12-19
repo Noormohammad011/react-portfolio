@@ -1,11 +1,12 @@
 import React from 'react'
-import { Brands, Header, Hero } from './components'
+import { About, Brands, Header, Hero } from './components'
 const App = () => {
   return (
     <div>
       <Header />
       <Hero />
       <Brands />
+      <About />
       <div style={{ height: '1000px' }}></div>
     </div>
   )
