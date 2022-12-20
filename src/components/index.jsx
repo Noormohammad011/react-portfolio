@@ -13,6 +13,7 @@ import Services from './Services'
 import Testimonials from './Testimonials'
 import TestimonialSlider from './TestimonialSlider'
 import Contact from './Contact'
+import Footer from './Footer'
 export {
   Header,
   Nav,
@@ -29,4 +30,5 @@ export {
   Testimonials,
   TestimonialSlider,
   Contact,
+  Footer,
 }

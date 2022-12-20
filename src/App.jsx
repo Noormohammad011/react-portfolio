@@ -8,6 +8,7 @@ import {
   Services,
   Testimonials,
   Contact,
+  Footer,
 } from './components'
 import Portfolio from './components/Portfolio'
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Services />
       <Testimonials />
       <Contact />
+      <Footer />
       <div style={{ height: '1000px' }}></div>
     </div>
   )
