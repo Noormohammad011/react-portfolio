@@ -250,13 +250,13 @@ export const contact = [
   {
     icon: <FiMail />,
     title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    subtitle: 'Please feel free to contact me',
+    description: 'Email me at noormohammad.net1503011@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    subtitle: 'Khilkhet, Dhaka, Bangladesh',
+    description: 'Please feel free to contact me whenever you want',
   },
 ];

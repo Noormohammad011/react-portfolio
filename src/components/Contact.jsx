@@ -1,6 +1,50 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import { contact } from '../data'
+import { toast } from 'react-toastify'
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        `${import.meta.env.VITE_MY_SERVICE_ID}`,
+        `${import.meta.env.VITE_MY_TEMPLATE_ID}`,
+        form.current,
+        `${import.meta.env.VITE_MY_USER_ID}`
+      )
+      .then(
+        (result) => {
+          toast.success('Email sent successfully!', {
+            position: 'top-center',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'light',
+          })
+          console.log(result.text)
+        },
+        (error) => {
+          toast.error('Something went wrong, please try again!', {
+            position: 'top-center',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'light',
+          })
+          console.log(error.text)
+        }
+      )
+    e.target.reset()
+  }
   return (
     <section id='contact' name='contact' className='section bg-primary'>
       <div className='container mx-auto'>
@@ -9,7 +53,8 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sint.
+            We like to create things with fun, open-minded people. Fell free to
+            contact me.
           </p>
         </div>
         <div className='flex flex-col lg:gap-x-8 lg:flex-row'>
@@ -31,17 +76,40 @@ const Contact = () => {
             })}
           </div>
           {/* form */}
-          <form action='' className='space-y-8 w-full max-w-[780px]'>
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className='space-y-8 w-full max-w-[780px]'
+          >
             <div className='flex gap-8'>
-              <input type='text' className='input' placeholder='Your Name' />
-              <input type='email' className='input' placeholder='Your Email' />
+              <input
+                type='text'
+                className='input'
+                placeholder='Your Name'
+                name='user_name'
+              />
+              <input
+                type='email'
+                className='input'
+                placeholder='Your Email'
+                name='user_email'
+              />
             </div>
-            <input type='text' className='input' placeholder='Subject' />
+            <input
+              type='text'
+              className='input'
+              placeholder='Subject'
+              name='subject'
+            />
             <textarea
               className='textarea'
               placeholder='Your message'
+              name='message'
             ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-accent-hover'>
+            <button
+              className='btn btn-lg bg-accent hover:bg-accent-hover'
+              value='Send'
+            >
               Send Messag
             </button>
           </form>
