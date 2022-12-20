@@ -9,6 +9,7 @@ import Skills from './Skills'
 import Portfolio from './Portfolio'
 import Projects from './Projects'
 import Project from './Project'
+import Services from './Services'
 export {
   Header,
   Nav,
@@ -21,4 +22,5 @@ export {
   Portfolio,
   Projects,
   Project,
+  Services
 }
