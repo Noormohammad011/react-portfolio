@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Logo from '../assets/img/logo.svg'
+import { GiCottonFlower } from 'react-icons/gi'
 import { Nav, NavMobile, Socials } from '../components'
 const Header = () => {
   const [bg, setBg] = useState(false)
@@ -20,7 +20,7 @@ const Header = () => {
             bg ? 'text-accent text-3xl' : 'text-white text-4xl'
           } italic`}
         >
-          Noor Mohammad
+          <GiCottonFlower />
         </h1>
         {/* nav */}
         <div className='hidden lg:block'>
