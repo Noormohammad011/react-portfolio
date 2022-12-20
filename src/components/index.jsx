@@ -10,6 +10,8 @@ import Portfolio from './Portfolio'
 import Projects from './Projects'
 import Project from './Project'
 import Services from './Services'
+import Testimonials from './Testimonials'
+import TestimonialSlider from './TestimonialSlider'
 export {
   Header,
   Nav,
@@ -22,5 +24,7 @@ export {
   Portfolio,
   Projects,
   Project,
-  Services
+  Services,
+  Testimonials,
+  TestimonialSlider,
 }

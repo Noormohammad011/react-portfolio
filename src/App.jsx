@@ -1,5 +1,5 @@
 import React from 'react'
-import { About, Brands, Header, Hero, Skills, Services } from './components'
+import { About, Brands, Header, Hero, Skills, Services, Testimonials } from './components'
 import Portfolio from './components/Portfolio'
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Skills />
       <Portfolio />
       <Services />
+      <Testimonials />
       <div style={{ height: '1000px' }}></div>
     </div>
   )
