@@ -3,8 +3,6 @@ import React, { useState } from 'react'
 import { navigation } from '../data'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
-import { Socials } from '../components'
-
 // animation
 import { motion } from 'framer-motion'
 // scrol
@@ -40,7 +38,7 @@ const NavMobile = () => {
     <nav className='relative'>
       {/* menu icon */}
       <div
-        onClick={() => setIsOpen(!IsOpen)}
+        onClick={() => setIsOpen(true)}
         className='cursor-pointer text-white'
       >
         <FaBars className='w-8 h-8' />
@@ -63,7 +61,7 @@ const NavMobile = () => {
       >
         {/* close icon */}
         <div
-          onClick={() => setIsOpen(IsOpen)}
+          onClick={() => setIsOpen(false)}
           className='cursor-pointer absolute top-8 right-8'
         >
           <FaTimes className='w-8 h-8' />

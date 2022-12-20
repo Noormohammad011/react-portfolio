@@ -14,6 +14,7 @@ import Testimonials from './Testimonials'
 import TestimonialSlider from './TestimonialSlider'
 import Contact from './Contact'
 import Footer from './Footer'
+import BackToTop from './BackToTop'
 export {
   Header,
   Nav,
@@ -31,4 +32,5 @@ export {
   TestimonialSlider,
   Contact,
   Footer,
+  BackToTop,
 }
