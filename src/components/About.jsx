@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutMe from '../assets/img/aboutMe.jpg'
+import { AiOutlineWhatsApp } from 'react-icons/ai'
 const About = () => {
   return (
     <section name='about' id='about' className='section bg-secondary'>
@@ -24,7 +25,16 @@ const About = () => {
               </p>
             </div>
             <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all'>
-              <a href="https://wa.me/+8801754867577" target='_blank'> Contact Me</a>
+              <a
+                href='https://wa.me/+8801754867577'
+                target='_blank'
+                className='flex justify-center items-center'
+              >
+                Contact Me
+                <span className='mx-2'>
+                  <AiOutlineWhatsApp />
+                </span>
+              </a>
             </button>
           </div>
         </div>

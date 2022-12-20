@@ -1,47 +1,44 @@
 //  icons
 import {
-  FiYoutube,
-  FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
-} from 'react-icons/fi';
-import { AiOutlineLinkedin } from 'react-icons/ai';
-import { FaFacebook } from 'react-icons/fa';
+} from 'react-icons/fi'
+import { AiOutlineLinkedin } from 'react-icons/ai'
+import { FaResolving, FaFacebook, FaHandshake } from 'react-icons/fa'
 // companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+import FreelancerBrandIcon from './assets/img/brands/freelancer.png'
+import UpworkBrandIcon from './assets/img/brands/upwork.png'
+import FiverBrandIcon from './assets/img/brands/fiverr.png'
+import BehanceBrandIcon from './assets/img/brands/behance.png'
+import DribbbleBrandIcon from './assets/img/brands/dribbble.png'
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/p1.webp'
+import Project2 from './assets/img/projects/p2.webp'
+import Project3 from './assets/img/projects/p3.webp'
+import Project4 from './assets/img/projects/p4.webp'
+import Project5 from './assets/img/projects/p5.webp'
+import Project6 from './assets/img/projects/p6.webp'
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg1 from './assets/img/skills/html5.png'
+import SkillImg2 from './assets/img/skills/css3.png'
+import SkillImg3 from './assets/img/skills/js.png'
+import SkillImg4 from './assets/img/skills/reactjs.png'
+import SkillImg5 from './assets/img/skills/nextjs.png'
+import SkillImg6 from './assets/img/skills/nodejs.png'
+import SkillImg7 from './assets/img/skills/git.png'
+import SkillImg8 from './assets/img/skills/figma.png'
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage1 from './assets/img/testimonials/testimonial-1.webp'
+import TestiImage2 from './assets/img/testimonials/testimonial-2.webp'
+import TestiImage3 from './assets/img/testimonials/testimonial-3.webp'
 
 // navigation
 export const navigation = [
@@ -69,7 +66,7 @@ export const navigation = [
     name: 'contact',
     href: 'contact',
   },
-];
+]
 
 // social
 export const social = [
@@ -109,7 +106,7 @@ export const brands = [
     img: DribbbleBrandIcon,
     href: '',
   },
-];
+]
 
 // projects
 export const projectsData = [
@@ -149,7 +146,7 @@ export const projectsData = [
     name: 'project name 6',
     category: 'web development',
   },
-];
+]
 
 // projects
 export const projectsNav = [
@@ -165,7 +162,7 @@ export const projectsNav = [
   {
     name: 'branding',
   },
-];
+]
 
 // skill
 export const skills = [
@@ -189,8 +186,8 @@ export const skills = [
   },
   {
     image: SkillImg7,
-  }
-];
+  },
+]
 
 // services
 export const services = [
@@ -198,27 +195,27 @@ export const services = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'My goal is to always build websites that are visually appealing and easy to use. I also make sure that the websites are responsive and work on all devices.',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'With a strong background in web development, I can build a fast and responsive website for your business. I also make sure that the website is secure and SEO friendly.',
   },
   {
-    icon: <FiPenTool />,
-    name: 'Branding',
+    icon: <FaResolving />,
+    name: 'Solving Problems',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I am a problem solver. I can help you solve any problem you are facing with your website. I can also help you with any other technical problem you are facing.',
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
+    icon: <FaHandshake />,
+    name: 'Support',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I provide 24/7 support. I am always available to help you with any problem you are facing with your website. I can also help you with any other technical problem you are facing.',
   },
-];
+]
 
 // testimonials
 export const testimonials = [
@@ -243,7 +240,7 @@ export const testimonials = [
     authorName: 'Olivia Doe',
     authorPosition: 'Head of Design, Google',
   },
-];
+]
 
 // contact
 export const contact = [
@@ -259,4 +256,4 @@ export const contact = [
     subtitle: 'Khilkhet, Dhaka, Bangladesh',
     description: 'Please feel free to contact me whenever you want',
   },
-];
+]

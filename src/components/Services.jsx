@@ -9,7 +9,7 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eaque.
+            I am a full stack developer with a passion for creating beautiful and functional websites and applications.
           </p>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>
