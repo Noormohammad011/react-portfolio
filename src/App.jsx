@@ -1,5 +1,14 @@
 import React from 'react'
-import { About, Brands, Header, Hero, Skills, Services, Testimonials } from './components'
+import {
+  About,
+  Brands,
+  Header,
+  Hero,
+  Skills,
+  Services,
+  Testimonials,
+  Contact,
+} from './components'
 import Portfolio from './components/Portfolio'
 const App = () => {
   return (
@@ -12,6 +21,7 @@ const App = () => {
       <Portfolio />
       <Services />
       <Testimonials />
+      <Contact />
       <div style={{ height: '1000px' }}></div>
     </div>
   )
