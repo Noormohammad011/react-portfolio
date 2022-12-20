@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { social } from '../data'
-import Logo from '../assets/img/logo.svg'
 const Footer = () => {
   return (
     <footer className='bg-tertiary py-12'>
@@ -17,10 +16,6 @@ const Footer = () => {
                 </a>
               )
             })}
-          </div>
-          {/* logo */}
-          <div className=' my-4'>
-            <img src={Logo} alt='logo' />
           </div>
           {/* copy right */}
           <p className='text-center'>

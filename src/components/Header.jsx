@@ -15,9 +15,13 @@ const Header = () => {
       } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
     >
       <div className='container mx-auto h-full flex items-center justify-between'>
-        <a href='#'>
-          <img src={Logo} alt='Image' />
-        </a>
+        <h1
+          className={`${
+            bg ? 'text-accent text-3xl' : 'text-white text-4xl'
+          } italic`}
+        >
+          Noor Mohammad
+        </h1>
         {/* nav */}
         <div className='hidden lg:block'>
           <Nav />

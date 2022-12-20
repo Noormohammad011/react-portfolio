@@ -8,7 +8,13 @@ const Socials = () => {
           key={index}
           className='flex justify-between items-center text-accent'
         >
-          <a className='text-base cursor-pointer' href={item.link}>{item.icon}</a>
+          <a
+            className='text-base cursor-pointer'
+            target='_blank'
+            href={item.href}
+          >
+            {item.icon}
+          </a>
         </li>
       ))}
     </ul>

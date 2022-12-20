@@ -11,7 +11,8 @@ import {
   FiMail,
   FiMapPin,
 } from 'react-icons/fi';
-
+import { AiOutlineLinkedin } from 'react-icons/ai';
+import { FaFacebook } from 'react-icons/fa';
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
 import UpworkBrandIcon from './assets/img/brands/upwork.png';
@@ -73,22 +74,18 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FaFacebook />,
+    href: 'https://www.facebook.com/profile.php?id=100007513814577',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/Noormohammad011',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <AiOutlineLinkedin />,
+    href: 'https://www.linkedin.com/in/noor-mohammad-a39415218/',
   },
-];
+]
 
 // companies
 export const brands = [
@@ -192,10 +189,7 @@ export const skills = [
   },
   {
     image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
-  },
+  }
 ];
 
 // services

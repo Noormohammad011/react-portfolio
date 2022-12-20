@@ -1,7 +1,6 @@
 import React from 'react'
 import {
   About,
-  Brands,
   Header,
   Hero,
   Skills,
@@ -17,7 +16,6 @@ const App = () => {
     <div>
       <Header />
       <Hero />
-      <Brands />
       <About />
       <Skills />
       <Portfolio />
