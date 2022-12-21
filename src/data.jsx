@@ -18,12 +18,19 @@ import BehanceBrandIcon from './assets/img/brands/behance.png'
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png'
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp'
-import Project2 from './assets/img/projects/p2.webp'
-import Project3 from './assets/img/projects/p3.webp'
-import Project4 from './assets/img/projects/p4.webp'
-import Project5 from './assets/img/projects/p5.webp'
-import Project6 from './assets/img/projects/p6.webp'
+import ContactTest from './assets/img/projects/contact.png'
+import RtkQuery from './assets/img/projects/rtk-query.png'
+import MusicApp from './assets/img/projects/music_app.png'
+import HouseMarketPlace from './assets/img/projects/HouseMarketPlace.png'
+import NetflixApp from './assets/img/projects/NetflixApp.png'
+import ImageFinder from './assets/img/projects/imageFinder.png'
+import random_gif from './assets/img/projects/random_gif.png'
+import TemperatureHot from './assets/img/projects/TemperatureHot.png'
+import BookArchive from './assets/img/projects/BookArchive.png'
+import MacPro from './assets/img/projects/MacPro.png'
+import ProShop from './assets/img/projects/ProShop.png'
+import DroneWebsite from './assets/img/projects/DroneWebsite.png'
+import Home from './assets/img/projects/Home.png'
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png'
@@ -33,7 +40,7 @@ import SkillImg4 from './assets/img/skills/reactjs.png'
 import SkillImg5 from './assets/img/skills/nextjs.png'
 import SkillImg6 from './assets/img/skills/nodejs.png'
 import SkillImg7 from './assets/img/skills/git.png'
-import SkillImg8 from './assets/img/skills/figma.png'
+
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp'
@@ -107,62 +114,153 @@ export const brands = [
     href: '',
   },
 ]
-
-// projects
-export const projectsData = [
-  {
-    id: '1',
-    image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
-  },
-  {
-    id: '2',
-    image: Project2,
-    name: 'project name 2',
-    category: 'web development',
-  },
-  {
-    id: '3',
-    image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
-  },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
-]
-
 // projects
 export const projectsNav = [
   {
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'react',
   },
   {
-    name: 'web development',
+    name: 'javascript',
   },
   {
-    name: 'branding',
+    name: 'mern',
+  },
+  {
+    name: 'django',
   },
 ]
+
+// projects
+export const projectsData = [
+  {
+    id: '1',
+    image: ImageFinder,
+    name: 'Image Finder',
+    category: 'react',
+    liveLInk: 'https://tailwindimagefinder.netlify.app/',
+    description:
+      'This is a simple image finder app using unsplash api and tailwind css',
+  },
+  {
+    id: '2',
+    image: HouseMarketPlace,
+    name: 'House Market Place',
+    category: 'react',
+    liveLInk: 'https://house-marketplace-app-d26ad.web.app/',
+    githubLink: 'https://github.com/Noormohammad011/houseMarketPlace',
+    description:
+      'House Market Place app using react js, tailwind css , firebase',
+  },
+  {
+    id: '3',
+    image: ContactTest,
+    name: 'Contact Memorizer',
+    category: 'react',
+    liveLInk: 'https://react-redux-contact-test.netlify.app/',
+    githubLink: 'https://github.com/Noormohammad011/react-redux-crud',
+    description:
+      'This is a simple contact memorizer app using react js with redux',
+  },
+  {
+    id: '4',
+    image: RtkQuery,
+    name: 'RTK Query Crud',
+    category: 'react',
+    liveLInk: 'https://rtk-query-crud.onrender.com/',
+    BackendLink: 'https://github.com/Noormohammad011/rtk-query-server',
+    githubLink: 'https://github.com/Noormohammad011/rtk-query',
+    description: 'Rtk query crud app using react js with redux toolkit',
+  },
+  {
+    id: '5',
+    image: MusicApp,
+    name: 'Music App',
+    category: 'react',
+    liveLInk: 'https://reactmusicmania.netlify.app/',
+    githubLink: 'https://github.com/Noormohammad011/React_music_player',
+    description: 'Music app using react js where you can search for songs',
+  },
+  {
+    id: '6',
+    image: NetflixApp,
+    name: 'Netflix App',
+    category: 'react',
+    liveLInk: 'https://netflixclonewithreactjs.netlify.app/',
+    githubLink: '',
+    description: 'Netflix app using react with integrated external api',
+  },
+  {
+    id: '7',
+    image: random_gif,
+    name: 'Random Gif Generator',
+    category: 'react',
+    liveLInk: 'https://blissful-thompson-12c9f6.netlify.app/',
+    githubLink: '',
+    description: 'Random gif generator using react js',
+  },
+  {
+    id: '8',
+    image: TemperatureHot,
+    name: 'weather app',
+    category: 'javascript',
+    liveLInk: 'https://weathersecret.netlify.app/',
+    githubLink: 'https://github.com/Noormohammad011/weatherAppJs',
+    description: 'Weather app using javascript',
+  },
+  {
+    id: '9',
+    image: BookArchive,
+    name: 'Book Archieve',
+    category: 'javascript',
+    liveLInk: 'https://bookarchiveme.netlify.app/',
+    githubLink: 'https://github.com/Noormohammad011/book-archive-js-with--api',
+    description: 'Book archieve app using javascript with integrated api',
+  },
+  {
+    id: '10',
+    image: MacPro,
+    name: 'Mac Pro',
+    category: 'javascript',
+    liveLInk: 'https://hiphiphurrahmacpro.netlify.app/',
+    githubLink: 'https://github.com/Noormohammad011/mac-book-pro-js',
+    description: 'Mac pro app using javascript with simple calculations',
+  },
+  {
+    id: '11',
+    image: ProShop,
+    name: 'Shop It',
+    category: 'mern',
+    liveLInk: 'https://shopit-frontend.onrender.com/',
+    githubLink: 'https://github.com/Noormohammad011/ShopIt-Frontend',
+    BackendLink: 'https://github.com/Noormohammad011/ShopIT-Backend',
+    description:
+      'Shop it app using mern stack with redux and redux thunk and jwt authentication',
+  },
+  {
+    id: '12',
+    image: DroneWebsite,
+    name: 'Drone Ecommerce',
+    category: 'mern',
+    liveLInk: 'https://drone-website-frontend.onrender.com/',
+    githubLink: 'https://github.com/Noormohammad011/droneWebsiteFrontend',
+    BackendLink: 'https://github.com/Noormohammad011/droneWebsiteBackend',
+    description: 'Drone ecommerce app using mern with jwt authentication',
+  },
+  {
+    id: '13',
+    image: Home,
+    name: 'Django Ecommerce',
+    category: 'django',
+    liveLInk: 'https://web-production-a372.up.railway.app/',
+    githubLink: 'https://github.com/Noormohammad011/djangoEcommerce',
+    description: 'Ecommerce app using django with sripe payment',
+  },
+]
+
+
 
 // skill
 export const skills = [
