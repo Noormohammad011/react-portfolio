@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutMe from '../assets/img/aboutMe.jpg'
+import aboutMe from '../assets/img/aboutME.jpg'
 import { AiOutlineWhatsApp } from 'react-icons/ai'
 const About = () => {
   return (
