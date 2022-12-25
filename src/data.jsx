@@ -18,8 +18,8 @@ import BehanceBrandIcon from './assets/img/brands/behance.png'
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png'
 
 // projects images
-import HouseMarketPlaceImage from './assets/img/projects/houseMarketPlace.png'
-import MacProImage from './assets/img/projects/macPro.png'
+import HouseMarketPlaceImage from './assets/img/projects/0_houseMarketPlace.png'
+import MacProImage from './assets/img/projects/1_macPro.png'
 import contactTest from './assets/img/projects/contactMemorizer.png'
 import RtkQuery from './assets/img/projects/rtk-query-crud.png'
 import MusicApp from './assets/img/projects/music_app.png'
