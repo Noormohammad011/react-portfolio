@@ -18,16 +18,16 @@ import BehanceBrandIcon from './assets/img/brands/behance.png'
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png'
 
 // projects images
-import ContactTest from './assets/img/projects/contactMemorizer.png'
+import contactTest from './assets/img/projects/contactMemorizer.png'
 import RtkQuery from './assets/img/projects/rtk-query-crud.png'
 import MusicApp from './assets/img/projects/music_app.png'
-import houseMarketPlaceApp from './assets/img/projects/houseMarketPlace.png'
+import houseMarketPlace from './assets/img/projects/houseMarketPlace.png'
 import NetflixApp from './assets/img/projects/NetflixApp.png'
 import ImageFinder from './assets/img/projects/imageFinder.png'
 import random_gif from './assets/img/projects/randomGif.png'
 import TemperatureHot from './assets/img/projects/temparature.png'
 import BookArchive from './assets/img/projects/BookArchive.png'
-import MacPro from './assets/img/projects/macPro.png'
+import macPro from './assets/img/projects/macPro.png'
 import ProShop from './assets/img/projects/shopIt.png'
 import DroneWebsite from './assets/img/projects/drone.png'
 import Home from './assets/img/projects/Home.png'
@@ -146,7 +146,7 @@ export const projectsData = [
   },
   {
     id: '2',
-    image: houseMarketPlaceApp,
+    image: houseMarketPlace,
     name: 'House Market Place',
     category: 'react',
     liveLInk: 'https://house-marketplace-app-d26ad.web.app/',
@@ -156,7 +156,7 @@ export const projectsData = [
   },
   {
     id: '3',
-    image: ContactTest,
+    image: contactTest,
     name: 'Contact Memorizer',
     category: 'react',
     liveLInk: 'https://react-redux-contact-test.netlify.app/',
@@ -221,7 +221,7 @@ export const projectsData = [
   },
   {
     id: '10',
-    image: MacPro,
+    image: macPro,
     name: 'Mac Pro',
     category: 'javascript',
     liveLInk: 'https://hiphiphurrahmacpro.netlify.app/',
