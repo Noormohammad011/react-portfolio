@@ -18,19 +18,19 @@ import BehanceBrandIcon from './assets/img/brands/behance.png'
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png'
 
 // projects images
-import contactTest from './assets/img/projects/contactMemorizer.png'
-import RtkQuery from './assets/img/projects/rtk-query-crud.png'
-import MusicApp from './assets/img/projects/music_app.png'
-import houseMarketPlace from './assets/img/projects/houseMarketPlace.png'
-import NetflixApp from './assets/img/projects/NetflixApp.png'
+// import contactTest from './assets/img/projects/contactMemorizer.png'
+// import RtkQuery from './assets/img/projects/rtk-query-crud.png'
+// import MusicApp from './assets/img/projects/music_app.png'
+// import houseMarketPlace from './assets/img/projects/houseMarketPlace.png'
+// import NetflixApp from './assets/img/projects/NetflixApp.png'
 import ImageFinder from './assets/img/projects/imageFinder.png'
-import random_gif from './assets/img/projects/randomGif.png'
-import TemperatureHot from './assets/img/projects/temparature.png'
-import BookArchive from './assets/img/projects/BookArchive.png'
-import macPro from './assets/img/projects/macPro.png'
-import ProShop from './assets/img/projects/shopIt.png'
-import DroneWebsite from './assets/img/projects/drone.png'
-import Home from './assets/img/projects/Home.png'
+// import random_gif from './assets/img/projects/randomGif.png'
+// import TemperatureHot from './assets/img/projects/temparature.png'
+// import BookArchive from './assets/img/projects/BookArchive.png'
+// import macPro from './assets/img/projects/macPro.png'
+// import ProShop from './assets/img/projects/shopIt.png'
+// import DroneWebsite from './assets/img/projects/drone.png'
+// import Home from './assets/img/projects/Home.png'
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png'
@@ -144,120 +144,120 @@ export const projectsData = [
     description:
       'This is a simple image finder app using unsplash api and tailwind css',
   },
-  {
-    id: '2',
-    image: houseMarketPlace,
-    name: 'House Market Place',
-    category: 'react',
-    liveLInk: 'https://house-marketplace-app-d26ad.web.app/',
-    githubLink: 'https://github.com/Noormohammad011/houseMarketPlace',
-    description:
-      'House Market Place app using react js, tailwind css , firebase',
-  },
-  {
-    id: '3',
-    image: contactTest,
-    name: 'Contact Memorizer',
-    category: 'react',
-    liveLInk: 'https://react-redux-contact-test.netlify.app/',
-    githubLink: 'https://github.com/Noormohammad011/react-redux-crud',
-    description:
-      'This is a simple contact memorizer app using react js with redux',
-  },
-  {
-    id: '4',
-    image: RtkQuery,
-    name: 'RTK Query Crud',
-    category: 'react',
-    liveLInk: 'https://rtk-query-crud.onrender.com/',
-    BackendLink: 'https://github.com/Noormohammad011/rtk-query-server',
-    githubLink: 'https://github.com/Noormohammad011/rtk-query',
-    description: 'Rtk query crud app using react js with redux toolkit',
-  },
-  {
-    id: '5',
-    image: MusicApp,
-    name: 'Music App',
-    category: 'react',
-    liveLInk: 'https://reactmusicmania.netlify.app/',
-    githubLink: 'https://github.com/Noormohammad011/React_music_player',
-    description: 'Music app using react js where you can search for songs',
-  },
-  {
-    id: '6',
-    image: NetflixApp,
-    name: 'Netflix App',
-    category: 'react',
-    liveLInk: 'https://netflixclonewithreactjs.netlify.app/',
-    githubLink: '',
-    description: 'Netflix app using react with integrated external api',
-  },
-  {
-    id: '7',
-    image: random_gif,
-    name: 'Random Gif Generator',
-    category: 'react',
-    liveLInk: 'https://blissful-thompson-12c9f6.netlify.app/',
-    githubLink: '',
-    description: 'Random gif generator using react js',
-  },
-  {
-    id: '8',
-    image: TemperatureHot,
-    name: 'weather app',
-    category: 'javascript',
-    liveLInk: 'https://weathersecret.netlify.app/',
-    githubLink: 'https://github.com/Noormohammad011/weatherAppJs',
-    description: 'Weather app using javascript',
-  },
-  {
-    id: '9',
-    image: BookArchive,
-    name: 'Book Archieve',
-    category: 'javascript',
-    liveLInk: 'https://bookarchiveme.netlify.app/',
-    githubLink: 'https://github.com/Noormohammad011/book-archive-js-with--api',
-    description: 'Book archieve app using javascript with integrated api',
-  },
-  {
-    id: '10',
-    image: macPro,
-    name: 'Mac Pro',
-    category: 'javascript',
-    liveLInk: 'https://hiphiphurrahmacpro.netlify.app/',
-    githubLink: 'https://github.com/Noormohammad011/mac-book-pro-js',
-    description: 'Mac pro app using javascript with simple calculations',
-  },
-  {
-    id: '11',
-    image: ProShop,
-    name: 'Shop It',
-    category: 'mern',
-    liveLInk: 'https://shopit-frontend.onrender.com/',
-    githubLink: 'https://github.com/Noormohammad011/ShopIt-Frontend',
-    BackendLink: 'https://github.com/Noormohammad011/ShopIT-Backend',
-    description:
-      'Shop it app using mern stack with redux and redux thunk and jwt authentication',
-  },
-  {
-    id: '12',
-    image: DroneWebsite,
-    name: 'Drone Ecommerce',
-    category: 'mern',
-    liveLInk: 'https://drone-website-frontend.onrender.com/',
-    githubLink: 'https://github.com/Noormohammad011/droneWebsiteFrontend',
-    BackendLink: 'https://github.com/Noormohammad011/droneWebsiteBackend',
-    description: 'Drone ecommerce app using mern with jwt authentication',
-  },
-  {
-    id: '13',
-    image: Home,
-    name: 'Django Ecommerce',
-    category: 'django',
-    liveLInk: 'https://web-production-a372.up.railway.app/',
-    githubLink: 'https://github.com/Noormohammad011/djangoEcommerce',
-    description: 'Ecommerce app using django with sripe payment',
-  },
+  // {
+  //   id: '2',
+  //   image: houseMarketPlace,
+  //   name: 'House Market Place',
+  //   category: 'react',
+  //   liveLInk: 'https://house-marketplace-app-d26ad.web.app/',
+  //   githubLink: 'https://github.com/Noormohammad011/houseMarketPlace',
+  //   description:
+  //     'House Market Place app using react js, tailwind css , firebase',
+  // },
+  // {
+  //   id: '3',
+  //   image: contactTest,
+  //   name: 'Contact Memorizer',
+  //   category: 'react',
+  //   liveLInk: 'https://react-redux-contact-test.netlify.app/',
+  //   githubLink: 'https://github.com/Noormohammad011/react-redux-crud',
+  //   description:
+  //     'This is a simple contact memorizer app using react js with redux',
+  // },
+  // {
+  //   id: '4',
+  //   image: RtkQuery,
+  //   name: 'RTK Query Crud',
+  //   category: 'react',
+  //   liveLInk: 'https://rtk-query-crud.onrender.com/',
+  //   BackendLink: 'https://github.com/Noormohammad011/rtk-query-server',
+  //   githubLink: 'https://github.com/Noormohammad011/rtk-query',
+  //   description: 'Rtk query crud app using react js with redux toolkit',
+  // },
+  // {
+  //   id: '5',
+  //   image: MusicApp,
+  //   name: 'Music App',
+  //   category: 'react',
+  //   liveLInk: 'https://reactmusicmania.netlify.app/',
+  //   githubLink: 'https://github.com/Noormohammad011/React_music_player',
+  //   description: 'Music app using react js where you can search for songs',
+  // },
+  // {
+  //   id: '6',
+  //   image: NetflixApp,
+  //   name: 'Netflix App',
+  //   category: 'react',
+  //   liveLInk: 'https://netflixclonewithreactjs.netlify.app/',
+  //   githubLink: '',
+  //   description: 'Netflix app using react with integrated external api',
+  // },
+  // {
+  //   id: '7',
+  //   image: random_gif,
+  //   name: 'Random Gif Generator',
+  //   category: 'react',
+  //   liveLInk: 'https://blissful-thompson-12c9f6.netlify.app/',
+  //   githubLink: '',
+  //   description: 'Random gif generator using react js',
+  // },
+  // {
+  //   id: '8',
+  //   image: TemperatureHot,
+  //   name: 'weather app',
+  //   category: 'javascript',
+  //   liveLInk: 'https://weathersecret.netlify.app/',
+  //   githubLink: 'https://github.com/Noormohammad011/weatherAppJs',
+  //   description: 'Weather app using javascript',
+  // },
+  // {
+  //   id: '9',
+  //   image: BookArchive,
+  //   name: 'Book Archieve',
+  //   category: 'javascript',
+  //   liveLInk: 'https://bookarchiveme.netlify.app/',
+  //   githubLink: 'https://github.com/Noormohammad011/book-archive-js-with--api',
+  //   description: 'Book archieve app using javascript with integrated api',
+  // },
+  // {
+  //   id: '10',
+  //   image: macPro,
+  //   name: 'Mac Pro',
+  //   category: 'javascript',
+  //   liveLInk: 'https://hiphiphurrahmacpro.netlify.app/',
+  //   githubLink: 'https://github.com/Noormohammad011/mac-book-pro-js',
+  //   description: 'Mac pro app using javascript with simple calculations',
+  // },
+  // {
+  //   id: '11',
+  //   image: ProShop,
+  //   name: 'Shop It',
+  //   category: 'mern',
+  //   liveLInk: 'https://shopit-frontend.onrender.com/',
+  //   githubLink: 'https://github.com/Noormohammad011/ShopIt-Frontend',
+  //   BackendLink: 'https://github.com/Noormohammad011/ShopIT-Backend',
+  //   description:
+  //     'Shop it app using mern stack with redux and redux thunk and jwt authentication',
+  // },
+  // {
+  //   id: '12',
+  //   image: DroneWebsite,
+  //   name: 'Drone Ecommerce',
+  //   category: 'mern',
+  //   liveLInk: 'https://drone-website-frontend.onrender.com/',
+  //   githubLink: 'https://github.com/Noormohammad011/droneWebsiteFrontend',
+  //   BackendLink: 'https://github.com/Noormohammad011/droneWebsiteBackend',
+  //   description: 'Drone ecommerce app using mern with jwt authentication',
+  // },
+  // {
+  //   id: '13',
+  //   image: Home,
+  //   name: 'Django Ecommerce',
+  //   category: 'django',
+  //   liveLInk: 'https://web-production-a372.up.railway.app/',
+  //   githubLink: 'https://github.com/Noormohammad011/djangoEcommerce',
+  //   description: 'Ecommerce app using django with sripe payment',
+  // },
 ]
 
 
