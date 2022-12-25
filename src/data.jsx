@@ -18,16 +18,16 @@ import BehanceBrandIcon from './assets/img/brands/behance.png'
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png'
 
 // projects images
+import HouseMarketPlaceImage from './assets/img/projects/houseMarketPlace.png'
+import MacProImage from './assets/img/projects/macPro.png'
 import contactTest from './assets/img/projects/contactMemorizer.png'
 import RtkQuery from './assets/img/projects/rtk-query-crud.png'
 import MusicApp from './assets/img/projects/music_app.png'
-// import houseMarketPlace from './assets/img/projects/houseMarketPlace.png'
 import NetflixApp from './assets/img/projects/NetflixApp.png'
 import ImageFinder from './assets/img/projects/imageFinder.png'
 import random_gif from './assets/img/projects/randomGif.png'
 import TemperatureHot from './assets/img/projects/temparature.png'
 import BookArchive from './assets/img/projects/BookArchive.png'
-// import macPro from './assets/img/projects/macPro.png'
 import ProShop from './assets/img/projects/shopIt.png'
 import DroneWebsite from './assets/img/projects/drone.png'
 import Home from './assets/img/projects/Home.png'
@@ -144,16 +144,16 @@ export const projectsData = [
     description:
       'This is a simple image finder app using unsplash api and tailwind css',
   },
-  // {
-  //   id: '2',
-  //   image: houseMarketPlace,
-  //   name: 'House Market Place',
-  //   category: 'react',
-  //   liveLInk: 'https://house-marketplace-app-d26ad.web.app/',
-  //   githubLink: 'https://github.com/Noormohammad011/houseMarketPlace',
-  //   description:
-  //     'House Market Place app using react js, tailwind css , firebase',
-  // },
+  {
+    id: '2',
+    image: HouseMarketPlaceImage,
+    name: 'House Market Place',
+    category: 'react',
+    liveLInk: 'https://house-marketplace-app-d26ad.web.app/',
+    githubLink: 'https://github.com/Noormohammad011/houseMarketPlace',
+    description:
+      'House Market Place app using react js, tailwind css , firebase',
+  },
   {
     id: '3',
     image: contactTest,
@@ -219,15 +219,15 @@ export const projectsData = [
     githubLink: 'https://github.com/Noormohammad011/book-archive-js-with--api',
     description: 'Book archieve app using javascript with integrated api',
   },
-  // {
-  //   id: '10',
-  //   image: macPro,
-  //   name: 'Mac Pro',
-  //   category: 'javascript',
-  //   liveLInk: 'https://hiphiphurrahmacpro.netlify.app/',
-  //   githubLink: 'https://github.com/Noormohammad011/mac-book-pro-js',
-  //   description: 'Mac pro app using javascript with simple calculations',
-  // },
+  {
+    id: '10',
+    image: MacProImage,
+    name: 'Mac Pro',
+    category: 'javascript',
+    liveLInk: 'https://hiphiphurrahmacpro.netlify.app/',
+    githubLink: 'https://github.com/Noormohammad011/mac-book-pro-js',
+    description: 'Mac pro app using javascript with simple calculations',
+  },
   {
     id: '11',
     image: ProShop,
