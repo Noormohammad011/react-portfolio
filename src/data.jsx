@@ -21,7 +21,7 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png'
 import ContactTest from './assets/img/projects/contactMemorizer.png'
 import RtkQuery from './assets/img/projects/rtk-query-crud.png'
 import MusicApp from './assets/img/projects/music_app.png'
-import HouseMarketPlace from './assets/img/projects/houseMarketPlace.png'
+import houseMarketPlaceApp from './assets/img/projects/houseMarketPlace.png'
 import NetflixApp from './assets/img/projects/NetflixApp.png'
 import ImageFinder from './assets/img/projects/imageFinder.png'
 import random_gif from './assets/img/projects/randomGif.png'
@@ -146,7 +146,7 @@ export const projectsData = [
   },
   {
     id: '2',
-    image: HouseMarketPlace,
+    image: houseMarketPlaceApp,
     name: 'House Market Place',
     category: 'react',
     liveLInk: 'https://house-marketplace-app-d26ad.web.app/',

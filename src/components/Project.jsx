@@ -5,7 +5,7 @@ const Project = ({ item }) => {
     <div key={item.id} className='flex flex-col items-center text-center'>
       <div className='mb-8'>
         <img
-          className='rounded-2xl w-[350px] h-[300px]'
+          className='rounded-2xl w-[370px] h-[280px]'
           src={item.image}
           alt={item.image}
         />
