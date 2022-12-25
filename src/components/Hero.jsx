@@ -1,7 +1,13 @@
 import React from 'react'
-import profileImage from '../assets/img/profileImage.png'
+import { useLottie } from 'lottie-react'
+import aboutMeAnimation from '../assets/animation/lottie_animation.json'
 
 const Hero = () => {
+   const options = {
+     animationData: aboutMeAnimation,
+     loop: true,
+  }
+  const { View } = useLottie(options)
   return (
     <section
       id='home'
@@ -28,7 +34,7 @@ const Hero = () => {
           </div>
           {/* right section */}
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img className='h-[65vh]' src={profileImage} alt='My Image' />
+            <div className='h-[65vh]'>{View}</div>
           </div>
         </div>
       </div>
