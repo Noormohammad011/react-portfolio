@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLottie } from 'lottie-react'
 import aboutMeAnimation from '../assets/animation/lottie_animation.json'
+import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
    const options = {
@@ -22,7 +23,18 @@ const Hero = () => {
               Hey, I'm Noor Mohammad
             </p>
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] text-center md:text-left'>
-              I'm a <span className='text-accent'>Full Stack Developer</span>
+              I'm a{' '}
+              <span className='text-accent'>
+                <Typewriter
+                  words={['MERN Stack developer', 'self motivated', 'React Developer', 'self Believer']}
+                  loop={5}
+                  cursor
+                  cursorStyle='_'
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               I am passionate to do my designation's responsibility and hungry
