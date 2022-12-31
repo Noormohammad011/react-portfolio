@@ -169,7 +169,7 @@ export const projectsData = [
     image: RtkQuery,
     name: 'RTK Query Crud',
     category: 'react',
-    liveLInk: 'https://rtk-query-crud.vercel.app/',
+    liveLInk: 'https://rtk-query-memorize.netlify.app/',
     BackendLink: 'https://github.com/Noormohammad011/rtk-query-server',
     githubLink: 'https://github.com/Noormohammad011/rtk-query',
     description: 'Rtk query crud app using react js with redux toolkit',
@@ -247,7 +247,8 @@ export const projectsData = [
     liveLInk: 'https://killar-drone.netlify.app/',
     githubLink: 'https://github.com/Noormohammad011/droneWebsiteFrontend',
     BackendLink: 'https://github.com/Noormohammad011/droneWebsiteBackend',
-    description: 'Drone ecommerce app using mern with jwt authentication. Also using stripe payment gateway.',
+    description:
+      'Drone ecommerce app using mern with jwt authentication. Also using stripe payment gateway.',
   },
   {
     id: '13',
