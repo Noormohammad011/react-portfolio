@@ -19,10 +19,10 @@ const Hero = () => {
         <div className='flex items-center h-full pt-8'>
           {/* left section */}
           <div className='flex-1 flex flex-col items-center lg:items-start mt-4'>
-            <p className='text-lg text-accent mb-[22px]'>
+            <p className='text-2xl text-accent mb-[22px]'>
               Hey, I'm Noor Mohammad
             </p>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] text-center md:text-left'>
+            <h1 className='text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-4xl lg:leading-[1.2] font-bold md:tracking-[-2px] text-center md:text-left'>
               I'm a{' '}
               <span className='text-accent'>
                 <Typewriter
