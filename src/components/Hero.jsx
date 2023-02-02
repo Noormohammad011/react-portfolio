@@ -4,9 +4,9 @@ import aboutMeAnimation from '../assets/animation/lottie_animation.json'
 import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
-   const options = {
-     animationData: aboutMeAnimation,
-     loop: true,
+  const options = {
+    animationData: aboutMeAnimation,
+    loop: true,
   }
   const { View } = useLottie(options)
   return (
@@ -26,7 +26,12 @@ const Hero = () => {
               I'm a{' '}
               <span className='text-accent'>
                 <Typewriter
-                  words={['MERN Stack developer', 'self motivated', 'React Developer', 'self Believer']}
+                  words={[
+                    'MERN Stack developer',
+                    'self motivated',
+                    'React Developer',
+                    'self Believer',
+                  ]}
                   loop={5}
                   cursor
                   cursorStyle='_'
@@ -40,9 +45,16 @@ const Hero = () => {
               I am passionate to do my designation's responsibility and hungry
               to explore new technology.
             </p>
-            <button className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all uppercase'>
+            {/* <button className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all uppercase'>
               Resume
-            </button>
+            </button> */}
+            <a
+              href='https://drive.google.com/file/d/1RMjdORNDdx4ybve3SH0fgPLr1CC004b5/view?usp=sharing'
+              target='_blank'
+              className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all uppercase'
+            >
+              Resume
+            </a>
           </div>
           {/* right section */}
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
