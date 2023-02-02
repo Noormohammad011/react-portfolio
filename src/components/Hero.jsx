@@ -20,7 +20,7 @@ const Hero = () => {
           {/* left section */}
           <div className='flex-1 flex flex-col items-center lg:items-start mt-4'>
             <p className='text-2xl text-accent mb-[22px]'>
-              Hey, I'm Noor Mohammad
+              Hi, I'm Noor Mohammad
             </p>
             <h1 className='text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-4xl lg:leading-[1.2] font-bold md:tracking-[-2px] text-center md:text-left'>
               I'm a{' '}
@@ -45,9 +45,6 @@ const Hero = () => {
               I am passionate to do my designation's responsibility and hungry
               to explore new technology.
             </p>
-            {/* <button className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all uppercase'>
-              Resume
-            </button> */}
             <a
               href='https://drive.google.com/file/d/1_JplLFMpbCSSDawsSY64brEBjEGDUmH3/view?usp=sharing'
               target='_blank'

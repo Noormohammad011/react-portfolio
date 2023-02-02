@@ -24,7 +24,7 @@ const BackToTop = () => {
     show && (
       <button
         onClick={() => scrollToTop()}
-        className='bg-accent w-12 h-12 hover:bg-accent-hover text-white rounded-full fixed right-16 bottom-24 cursor-pointer flex justify-center items-center transition-all'
+        className='bg-accent w-12 h-12 hover:bg-accent-hover text-white rounded-full fixed right-8 bottom-24 cursor-pointer flex justify-center items-center transition-all'
       >
         <BiArrowToTop className='w-6 h-6' />
       </button>

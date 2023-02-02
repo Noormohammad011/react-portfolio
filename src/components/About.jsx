@@ -1,5 +1,4 @@
 import React from 'react'
-import aboutMe from '../assets/img/aboutME.jpg'
 import { AiOutlineWhatsApp } from 'react-icons/ai'
 const About = () => {
   return (
@@ -8,7 +7,7 @@ const About = () => {
         <div className='flex flex-col md:flex-row xl:flex-row gap-24'>
           <img
             className='object-cover h-full w-[566px] md:w-[450px] md:mx-auto lg:mx-0 rounded-2xl'
-            src={aboutMe}
+            src='https://res.cloudinary.com/dmo3pjxre/image/upload/v1675337847/avatars/DSC_2461-Pp-300-300_3_n0eqiu.jpg'
             alt='MY Image'
           />
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>

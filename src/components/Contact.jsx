@@ -53,7 +53,7 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className='subtitle'>
-            We like to create things with fun, open-minded people. Fell free to
+            I like to create things with fun, open-minded people. Feel free to
             contact me.
           </p>
         </div>
@@ -103,7 +103,7 @@ const Contact = () => {
             />
             <textarea
               className='textarea'
-              placeholder='Your message'
+              placeholder='Your Message'
               name='message'
             ></textarea>
             <button
