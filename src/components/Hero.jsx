@@ -49,7 +49,7 @@ const Hero = () => {
               Resume
             </button> */}
             <a
-              href='https://drive.google.com/file/d/1RMjdORNDdx4ybve3SH0fgPLr1CC004b5/view?usp=sharing'
+              href='https://drive.google.com/file/d/1_JplLFMpbCSSDawsSY64brEBjEGDUmH3/view?usp=sharing'
               target='_blank'
               className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all uppercase'
             >
