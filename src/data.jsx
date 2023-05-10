@@ -146,6 +146,17 @@ export const projectsData = [
   },
   {
     id: '2',
+    image: ProShop,
+    name: 'Shop It',
+    category: 'MERN',
+    liveLInk: 'https://shopit-menia.netlify.app/',
+    githubLink: 'https://github.com/Noormohammad011/ShopIt-Frontend',
+    BackendLink: 'https://github.com/Noormohammad011/ShopIT-Backend',
+    description:
+      'Shop it app using mern stack with redux and redux thunk and jwt authentication. Also using paypal payment gateway.',
+  },
+  {
+    id: '3',
     image: HouseMarketPlaceImage,
     name: 'House Market Place',
     category: 'react',
@@ -155,7 +166,7 @@ export const projectsData = [
       'House Market Place app using react js, tailwind css , firebase',
   },
   {
-    id: '3',
+    id: '4',
     image: contactTest,
     name: 'Contact Memorizer',
     category: 'react',
@@ -165,7 +176,7 @@ export const projectsData = [
       'This is a simple contact memorizer app using react js with redux',
   },
   {
-    id: '4',
+    id: '5',
     image: RtkQuery,
     name: 'RTK Query Crud',
     category: 'react',
@@ -174,15 +185,7 @@ export const projectsData = [
     githubLink: 'https://github.com/Noormohammad011/rtk-query',
     description: 'Rtk query crud app using react js with redux toolkit',
   },
-  {
-    id: '5',
-    image: MusicApp,
-    name: 'Music App',
-    category: 'react',
-    liveLInk: 'https://reactmusicmania.netlify.app/',
-    githubLink: 'https://github.com/Noormohammad011/React_music_player',
-    description: 'Music app using react js where you can search for songs',
-  },
+
   {
     id: '6',
     image: NetflixApp,
@@ -230,14 +233,12 @@ export const projectsData = [
   },
   {
     id: '11',
-    image: ProShop,
-    name: 'Shop It',
-    category: 'MERN',
-    liveLInk: 'https://shopit-menia.netlify.app/',
-    githubLink: 'https://github.com/Noormohammad011/ShopIt-Frontend',
-    BackendLink: 'https://github.com/Noormohammad011/ShopIT-Backend',
-    description:
-      'Shop it app using mern stack with redux and redux thunk and jwt authentication. Also using paypal payment gateway.',
+    image: MusicApp,
+    name: 'Music App',
+    category: 'react',
+    liveLInk: 'https://reactmusicmania.netlify.app/',
+    githubLink: 'https://github.com/Noormohammad011/React_music_player',
+    description: 'Music app using react js where you can search for songs',
   },
   {
     id: '12',

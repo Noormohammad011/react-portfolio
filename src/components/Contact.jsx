@@ -110,7 +110,7 @@ const Contact = () => {
               className='btn btn-lg bg-accent hover:bg-accent-hover'
               value='Send'
             >
-              Send Messag
+              Send Message
             </button>
           </form>
         </div>

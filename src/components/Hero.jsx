@@ -46,7 +46,7 @@ const Hero = () => {
               to explore new technology.
             </p>
             <a
-              href='https://drive.google.com/file/d/1_JplLFMpbCSSDawsSY64brEBjEGDUmH3/view?usp=sharing'
+              href='https://drive.google.com/file/d/1wX0PizuLIjrVStl7ynAG_2ZBM4BFaMuR/view?usp=sharing'
               target='_blank'
               className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all uppercase'
             >
